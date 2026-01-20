@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		78DF6D4B2F1F89750091DF55 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78DF6D4A2F1F89750091DF55 /* Launch Screen.storyboard */; };
+		78DF6D4D2F1F899B0091DF55 /* Launch Screen 2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78DF6D4C2F1F899B0091DF55 /* Launch Screen 2.storyboard */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		78F7870D2F09AC9D002F6697 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		78DF6D4A2F1F89750091DF55 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		78DF6D4C2F1F899B0091DF55 /* Launch Screen 2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen 2.storyboard"; sourceTree = "<group>"; };
 		78F786FF2F09AC9C002F6697 /* DF822.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DF822.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78F7870C2F09AC9D002F6697 /* DF822Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DF822Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		78F787162F09AC9D002F6697 /* DF822UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DF822UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,6 +82,8 @@
 		78F786F62F09AC9C002F6697 = {
 			isa = PBXGroup;
 			children = (
+				78DF6D4A2F1F89750091DF55 /* Launch Screen.storyboard */,
+				78DF6D4C2F1F899B0091DF55 /* Launch Screen 2.storyboard */,
 				78F787012F09AC9C002F6697 /* DF822 */,
 				78F7870F2F09AC9D002F6697 /* DF822Tests */,
 				78F787192F09AC9D002F6697 /* DF822UITests */,
@@ -212,6 +221,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78DF6D4B2F1F89750091DF55 /* Launch Screen.storyboard in Resources */,
+				78DF6D4D2F1F899B0091DF55 /* Launch Screen 2.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,9 +408,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "ZeuStorm Core";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
@@ -433,9 +446,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "ZeuStorm Core";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
